@@ -79,6 +79,9 @@ public class MainActivity extends AppCompatActivity {
                 fishAdapter.notifyDataSetChanged();
             }
         });
+        Log.d("TAG", "Fish are Located" );
+
+        Log.d("FISH", "Fish not located" );
 
     }
 
